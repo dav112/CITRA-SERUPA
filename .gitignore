@@ -1,0 +1,36 @@
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv/
+
+# Dataset & Citra (disimpan di Google Drive, bukan di Git)
+dataset/
+data/
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar.gz
+
+# Model & Bobot (disimpan di Google Drive)
+models/
+features/
+*.pth
+*.pt
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# File sistem OS
+.DS_Store
+Thumbs.db
