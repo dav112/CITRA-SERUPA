@@ -1,0 +1,21 @@
+image_id,filename,category,subcategory,color,pattern,source,contributor_github
+IMG_0001,sample_01.jpg,Atasan,Kemeja Formal,Putih,Polos,DeepFashion,katalog_dataset
+IMG_0002,sample_02.jpg,Atasan,Kaos Casual,Hitam,Polos,DeepFashion,katalog_dataset
+IMG_0003,sample_03.jpg,Bawahan,Celana Chino,Khaki,Polos,DeepFashion,katalog_dataset
+IMG_0004,sample_04.jpg,Bawahan,Celana Jeans,Biru Navy,Denim,DeepFashion,katalog_dataset
+IMG_0005,sample_05.jpg,Outerwear,Jaket Denim,Biru Muda,Denim,DeepFashion,katalog_dataset
+IMG_0006,sample_06.jpg,Outerwear,Hoodie Sweater,Abu-abu,Polos,DeepFashion,katalog_dataset
+IMG_0007,sample_07.jpg,Gaun/Dress,Midi Dress,Merah Marun,Bunga,DeepFashion,katalog_dataset
+IMG_0008,sample_08.jpg,Gaun/Dress,Maxi Dress,Hijau Emerald,Polos,DeepFashion,katalog_dataset
+IMG_0009,sample_09.jpg,Atasan,Kemeja Flanel,Merah-Hitam,Kotak-kotak,DeepFashion,katalog_dataset
+IMG_0010,sample_10.jpg,Atasan,Polo Shirt,Navy,Garis-garis,DeepFashion,katalog_dataset
+IMG_0011,foto_lukman_01.jpg,Atasan,Kaos Grafis,Hitam,Sablon Grafis,Foto_Mandiri,dav112
+IMG_0012,foto_lukman_02.jpg,Atasan,Kemeja Lengan Pendek,Biru Pastel,Polos,Foto_Mandiri,dav112
+IMG_0013,foto_lukman_03.jpg,Outerwear,Jaket Parka,Hijau Army,Polos,Foto_Mandiri,dav112
+IMG_0014,foto_lukman_04.jpg,Bawahan,Celana Cargo,Hitam,Polos,Foto_Mandiri,dav112
+IMG_0015,foto_anggota2_01.jpg,Atasan,Blouse Wanita,Krem,Renda,Foto_Mandiri,anggota2
+IMG_0016,foto_anggota2_02.jpg,Gaun/Dress,Casual Dress,Kuning Mustard,Polos,Foto_Mandiri,anggota2
+IMG_0017,foto_anggota3_01.jpg,Outerwear,Cardigan Rajut,Cokelat Susu,Rajut,Foto_Mandiri,anggota3
+IMG_0018,foto_anggota3_02.jpg,Bawahan,Rok Plisket,Abu-abu,Lipit Plisket,Foto_Mandiri,anggota3
+IMG_0019,foto_anggota4_01.jpg,Atasan,Batik Lengan Panjang,Cokelat Klasik,Motif Tradisional,Foto_Mandiri,anggota4
+IMG_0020,foto_anggota4_02.jpg,Outerwear,Varsity Jacket,Hitam-Putih,Colorblock,Foto_Mandiri,anggota4

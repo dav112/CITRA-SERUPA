@@ -12,16 +12,8 @@ env/
 .env
 .venv/
 
-# Dataset & Citra (disimpan di Google Drive, bukan di Git)
+# Dataset & Citra berukuran besar (disimpan di Google Drive)
 dataset/
-data/
-*.jpg
-*.jpeg
-*.png
-*.zip
-*.tar.gz
-
-# Model & Bobot (disimpan di Google Drive)
 models/
 features/
 *.pth
@@ -30,6 +22,16 @@ features/
 *.pkl
 *.npy
 *.npz
+
+# File arsip besar
+*.zip
+*.tar.gz
+
+# Kecualikan folder resmi yang wajib masuk GitHub (Slide 12)
+!data/
+!data/**
+!outputs/
+!outputs/**
 
 # File sistem OS
 .DS_Store

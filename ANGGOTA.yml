@@ -1,0 +1,57 @@
+# ANGGOTA KELOMPOK PROYEK PCD 2026
+# Topik: T5 - Citra Serupa (Visual Similarity Recommendation System)
+# Total Anggota: 4 Orang
+
+tim:
+  nama_kelompok: "Citra Serupa - T5"
+  topik: "T5 - Citra Serupa"
+  prodi: "Teknologi Informasi"
+  institusi: "IBI Kesatuan"
+  tahun: 2026
+
+anggota:
+  - id: A1
+    nama: "Lukman David"
+    npm: "232310032"
+    github: "dav112"
+    peran: "Data dan Anotasi"
+    tanggung_jawab:
+      - "Pengumpulan dataset utama (DeepFashion In-shop) & integrasi Google Drive"
+      - "Pengumpulan 15 foto pakaian sendiri via kamera smartphone"
+      - "Penyusunan format anotasi ground truth kategori pakaian (format_anotasi.csv)"
+      - "Validasi integritas dataset, penghapusan duplikat, dan penanganan missing values"
+
+  - id: A2
+    nama: "[Nama Anggota 2]"
+    npm: "[NPM Anggota 2]"
+    github: "[username-github-anggota-2]"
+    peran: "Preprocessing + Metode Klasik"
+    tanggung_jawab:
+      - "Pengumpulan 15 foto pakaian sendiri via kamera smartphone"
+      - "Pipeline preprocessing citra (Resize 224x224, Normalisasi warna, Peningkatan kontras)"
+      - "Implementasi Metode Klasik 1: Ekstraksi Fitur Histogram Warna (Color Histogram)"
+      - "Implementasi Metode Klasik 2: Ekstraksi Fitur Tekstur / Bentuk (HOG / GLCM)"
+      - "Pembuatan 10 contoh visual sebelum vs sesudah di outputs/figures/"
+
+  - id: A3
+    nama: "[Nama Anggota 3]"
+    npm: "[NPM Anggota 3]"
+    github: "[username-github-anggota-3]"
+    peran: "Metode Modern (Deep Learning)"
+    tanggung_jawab:
+      - "Pengumpulan 15 foto pakaian sendiri via kamera smartphone"
+      - "Pipeline model modern: Feature Extraction ResNet-50 Pretrained ImageNet"
+      - "Penyimpanan dan normalisasi vektor embedding L2 (2048 dimensi)"
+      - "Komputasi matriks jarak Cosine Similarity / Fast Retrieval"
+
+  - id: A4
+    nama: "[Nama Anggota 4]"
+    npm: "[NPM Anggota 4]"
+    github: "[username-github-anggota-4]"
+    peran: "Evaluasi dan Demo"
+    tanggung_jawab:
+      - "Pengumpulan 15 foto pakaian sendiri via kamera smartphone"
+      - "Perhitungan metrik kuantitatif (Precision@K, mAP@10, MRR) Klasik vs Modern"
+      - "Penyusunan analisis kasus gagal (failure cases) & uji ablasi"
+      - "Pengembangan antarmuka aplikasi Gradio Web UI di folder app/"
+      - "Deployment demo aplikasi ke Hugging Face Spaces"
